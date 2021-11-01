@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
+//  Noun: car
 //  action 1:
-
+car.start();
 //  action 2:
-
+car.accelerate();
 //  action 3:
-
+car.applyBrake();
 //  2)
-//  Noun:
+//  Noun: steeringWheel
 //  action 1:
-
+steeringWheel.center();
 //  action 2:
-
+steeringWheel.rotateClockwise();
 //  action 3:
-
+steeringWheel.rotateCounterClockwise();
 //  3)
-//  Noun:
+//  Noun: soundCard
 //  action 1:
-
+soundCard.setBufferSize();
 //  action 2:
-
+soundCard.setSampleRate();
 //  action 3:
-
+soundCard.setClockSource();
 //  4)
-//  Noun:
+//  Noun: tapeMachine
 //  action 1:
-
+tapeMachine.play();
 //  action 2:
-
+tapeMachine.rewind();
 //  action 3:
-
+tapeMachine.stop();
 //  5)
-//  Noun:
+//  Noun: hammer
 //  action 1:
-
+hammer.hammer();
 //  action 2:
-
+hammer.pry();
 //  action 3:
-
+hammer.discard();
 //  6)
-//  Noun:
+//  Noun: uzi
 //  action 1:
-
+uzi.reload();
 //  action 2:
-
+uzi.aim();
 //  action 3:
-
+uzi.fire();
 //  7)
-//  Noun:
+//  Noun: wire
 //  action 1:
-
+wire.connect();
 //  action 2:
-
+wire.disconnect();
 //  action 3:
-
+wire.chooseColor();
 //  8)
-//  Noun:
+//  Noun: bottle
 //  action 1:
-
+bottle.open();
 //  action 2:
-
+bottle.fill();
 //  action 3:
-
+bottle.seal();
 //  9)
-//  Noun:
+//  Noun: clock
 //  action 1:
-
+clock.setTime();
 //  action 2:
-
+clock.start();
 //  action 3:
-
+clock.setAlarm();
 //  10)
-//  Noun:
+//  Noun: string
 //  action 1:
-
+string.tune(float freq);
 //  action 2:
-
+string.finger(int fret);
 //  action 3:
-
+string.pluck();
 
 
 #endif
