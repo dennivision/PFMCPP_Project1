@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: car
+//  action 1: the car's engine starts
+car.startEngine();
+//  action 2: the car accelerates
+car.accelerate();
+//  action 3: the car decelerates
+car.decelerate();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: submarine
+//  action 1: the submarine dives
+submarine.dive();
+//  action 2: the submarine surfaces
+submarine.surface();
+//  action 3: the submarine extends its periscope 
+submarine.extendPeriscope();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: multimeter
+//  action 1: the multimeter measures a dc voltage
+multimeter.measureDCVoltage();
+//  action 2: the multimeter measures an ac voltage
+multimeter.measureACVoltage();
+//  action 3: the multimeter meaures an ac frequency
+multimeter.measureACFrequency();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: tapeMachineTransport
+//  action 1: the tapeMachine's transport moves forward
+tapeMachineTransport.moveForward();
+//  action 2: the tape machines transport moves backward 
+tapeMachineTransport.moveBackward();
+//  action 3: the tape machine's transport stops
+tapeMachineTransport.stop();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: monitor
+//  action 1: the monitor selects its hdmi1 input
+monitor.selectInputHDMI1();
+//  action 2: the monitors power turns on
+monitor.powerOn();
+//  action 3: the monitors volume is turned up
+monitor.volumeUp();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: bluRayPlayer
+//  action 1: the bluRayPlayer's tray is opened
+bluRayPlayer.openTray();
+//  action 2: the bluRayPlayers menu is displayed
+bluRayPlayer.displayMenu();
+//  action 3: the bluRayPlayer advances to the next chapter
+bluRayPlayer.nextChapter();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: shoeMaker
+//  action 1: the shoeMaker makes a shoe
+shoeMaker.makeShoe();
+//  action 2: the shoeMaker resoles a shoe
+shoeMaker.resoleShoe();
+//  action 3: the shoeMaker commits domestic violence
+shoeMaker.commitDomesticViolence();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: barista
+//  action 1: the barista makes a double espresso
+barista.makeDoubleEspresso();
+//  action 2: the barista makes a vanilla latte
+barista.makeVanillaLatte();
+//  action 3: the barista goes home
+barista.goHome();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: clock
+//  action 1: the clock's current time is set
+clock.setTime();
+//  action 2: the clock begins counting time 
+clock.start();
+//  action 3: clock sets its alarm 
+clock.setAlarm();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: guitarist
+//  action 1: a guitarist tunes a guitar string to the specified frequency
+guitarist.tuneGuitarStringToFrequency(int string, float freq);
+//  action 2: a guitarist fingers a guitar string at the specified fret
+guitarist.fingerGuitarStringAtFret(int string, int fret);
+//  action 3: a guitarist plucks a guitar string
+guitarist.pluckGuitarString(int string);
 
 
 #endif
