@@ -100,13 +100,13 @@ bluRayPlayer.displayMenu();
 //  action 3: the bluRayPlayer advances to the next chapter
 bluRayPlayer.nextChapter();
 //  7)
-//  Noun: wire
-//  action 1: a wire connects a source to a destination
-wire.connectSourceToDestination();
-//  action 2: a wire is disconnected from a source
-wire.disconnectSource();
-//  action 3: a wire is disconnected from a destination
-wire.disconnectDestination();
+//  Noun: shoeMaker
+//  action 1: the shoeMaker makes a shoe
+shoeMaker.makeShoe();
+//  action 2: the shoeMaker resoles a shoe
+shoeMaker.resoleShoe();
+//  action 3: the shoeMaker commits domestic violence
+shoeMaker.commitDomesticViolence();
 //  8)
 //  Noun: barista
 //  action 1: the barista makes a double espresso
