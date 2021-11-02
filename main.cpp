@@ -101,7 +101,7 @@ bluRayPlayer.displayMenu();
 bluRayPlayer.nextChapter();
 //  7)
 //  Noun: wire
-//  action 1: a wire is connected to a source and a destination
+//  action 1: a wire connects a source to a destination
 wire.connectSourceToDestination();
 //  action 2: a wire is disconnected from a source
 wire.disconnectSource();
