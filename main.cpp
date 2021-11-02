@@ -53,84 +53,84 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 //  1)
 //  Noun: car
-//  action 1: the car's engine is started
-car.start();
-//  action 2: the car's accelerator is pressed causing it to accelerate if its engine was started and its in gear
+//  action 1: the car's engine starts
+car.startEngine();
+//  action 2: the car accelerates
 car.accelerate();
-//  action 3: the car's brakes are applied causing it to slow down if its moving
-car.applyBrake();
+//  action 3: the car decelerates
+car.decelerate();
 //  2)
-//  Noun: steeringWheel
-//  action 1: the steering wheel is restored to its center position
-steeringWheel.center();
-//  action 2: the steering wheel is rotated clockwise
-steeringWheel.rotateClockwise();
-//  action 3: the steering wheel is rotated counter-clockwise
-steeringWheel.rotateCounterClockwise();
+//  Noun: submarine
+//  action 1: the submarine dives
+submarine.dive();
+//  action 2: the submarine surfaces
+submarine.surface();
+//  action 3: the submarine extends its periscope 
+submarine.extendPeriscope();
 //  3)
-//  Noun: soundCard
-//  action 1: the soundCard drivers are set to reserve a certain number of samples as the working buffer size 
-soundCard.setBufferSize();
-//  action 2: the soundCard driver is set to encode/decode a specified number of samples per second
-soundCard.setSampleRate();
-//  action 3: the soundCard driver is set to follow the sample rate of an external device
-soundCard.setClockSource();
+//  Noun: multimeter
+//  action 1: the multimeter measures a dc voltage
+multimeter.measureDCVoltage();
+//  action 2: the multimeter measures an ac voltage
+multimeter.measureACVoltage();
+//  action 3: the multimeter meaures an ac frequency
+multimeter.measureACFrequency();
 //  4)
-//  Noun: tapeMachine
-//  action 1: the tapeMachine's transport starts moving forward and the media is decoded
-tapeMachine.play();
-//  action 2: the tape machines transport is accellerated in reverse until play, stop commands are issued or the start of the media is reached
-tapeMachine.rewind();
-//  action 3: the tape machine's transport is stopped
-tapeMachine.stop();
+//  Noun: tapeMachineTransport
+//  action 1: the tapeMachine's transport moves forward
+tapeMachineTransport.moveForward();
+//  action 2: the tape machines transport moves backward 
+tapeMachineTransport.moveBackward();
+//  action 3: the tape machine's transport stops
+tapeMachineTransport.stop();
 //  5)
-//  Noun: hammer
-//  action 1: the hammer is used to strike an object
-hammer.hammer();
-//  action 2: the hammer is used to pry an object
-hammer.pry();
-//  action 3: the hammer is discarded
-hammer.discard();
+//  Noun: monitor
+//  action 1: the monitor selects its hdmi1 input
+monitor.selectInputHDMI1();
+//  action 2: the monitors power turns on
+monitor.powerOn();
+//  action 3: the monitors volume is turned up
+monitor.volumeUp();
 //  6)
-//  Noun: uzi
-//  action 1: the uzi's ammunition is filled to the maximum capacity
-uzi.reload();
-//  action 2: the uzi is pointed at a target
-uzi.aim();
-//  action 3: the uzi is fired at the target (if the aim had been set and if there is more than zero ammunition)
-uzi.fire();
+//  Noun: bluRayPlayer
+//  action 1: the bluRayPlayer's tray is opened
+bluRayPlayer.openTray();
+//  action 2: the bluRayPlayers menu is displayed
+bluRayPlayer.displayMenu();
+//  action 3: the bluRayPlayer advances to the next chapter
+bluRayPlayer.nextChapter();
 //  7)
 //  Noun: wire
-//  action 1: a wire is connected between an output and an input
-wire.connect();
-//  action 2: a wire is disconnected from all connected outputs and inputs
-wire.disconnect();
-//  action 3: the color of the wire is changed to a new color
-wire.chooseColor();
+//  action 1: a wire is connected to a source and a destination
+wire.connectSourceToDestination();
+//  action 2: a wire is disconnected from a source
+wire.disconnectSource();
+//  action 3: a wire is disconnected from a destination
+wire.disconnectDestination();
 //  8)
-//  Noun: bottle
-//  action 1: the bottle's lid is removed
-bottle.open();
-//  action 2: the bottle is filled with material if the lid is open
-bottle.fill();
-//  action 3: the bottle's lid is replaced
-bottle.seal();
+//  Noun: barista
+//  action 1: the barista makes a double espresso
+barista.makeDoubleEspresso();
+//  action 2: the barista makes a vanilla latte
+barista.makeVanillaLatte();
+//  action 3: the barista goes home
+barista.goHome();
 //  9)
 //  Noun: clock
 //  action 1: the clock's current time is set
 clock.setTime();
 //  action 2: the clock begins counting time 
 clock.start();
-//  action 3: the clock's alarm time is set so a notification will be issued when the current time matches the alarm time
+//  action 3: clock sets its alarm 
 clock.setAlarm();
 //  10)
-//  Noun: string
-//  action 1: a string's tension is adjusted so its base or "open" frequency is equal to the specified frequency (in Hz or vibrations per second)
-string.tune(float freq);
-//  action 2: a strings overall length is temporarily reduced by fingering the string at a specified fret causing it to vibrate at a higher frequency - fret numbers should be between 0 and 24. Every 12 frets will double the frequency which the string vibrates at (12th fret - 2*F, 24th fret = 4*f)
-string.finger(int fret);
-//  action 3: a string is stretched and released causing it to vibrate at the frequency determined by its tuning and the current fingering.
-string.pluck();
+//  Noun: guitarist
+//  action 1: a guitarist tunes a guitar string to the specified frequency
+guitarist.tuneGuitarStringToFrequency(int string, float freq);
+//  action 2: a guitarist fingers a guitar string at the specified fret
+guitarist.fingerGuitarStringAtFret(int string, int fret);
+//  action 3: a guitarist plucks a guitar string
+guitarist.pluckGuitarString(int string);
 
 
 #endif
